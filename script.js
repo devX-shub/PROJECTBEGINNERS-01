@@ -16,7 +16,7 @@ const body = document.querySelector('body');
 // console.log(buttons) 
 // console.log(body) 
 buttons.forEach(function (button) {
-//   console.log(button);
+//   console.log(button)
   button.addEventListener('click', function (e) {
     // console.log(e);
     console.log(e.target);
